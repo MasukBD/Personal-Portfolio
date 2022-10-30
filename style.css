@@ -30,6 +30,10 @@ h2 {
     background-position: right;
 }
 
+#experiences {
+    display: flex;
+}
+
 .half-width {
     width: 50%;
     margin: 15px;
@@ -52,4 +56,37 @@ h2 {
     background-image: linear-gradient(red, tomato);
     padding: 10px 30px;
     border-radius: 15px;
+}
+
+#experiences-sect {
+    margin-bottom: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience {
+    width: 42%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px rgb(114, 112, 112);
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.experience p {
+    text-align: justify;
+}
+
+#experience1 {
+    border-left: 8px solid rgb(240, 53, 20);
+}
+
+#experience2 {
+    border-left: 8px solid rgb(21, 21, 252);
+}
+
+footer p {
+    font-weight: 700;
+    text-align: center;
 }
